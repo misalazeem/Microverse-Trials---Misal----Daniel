@@ -1,0 +1,33 @@
+#main-doc{
+  width: 75%;
+  float: right;
+}
+
+#navbar{
+  width: 20%;
+  margin-left: 3%;
+  float: left;
+}
+
+.nav-link{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.function1{
+  padding-left: 15%;
+  background-color: #EEEDED;
+}
+
+@media screen and (max-width: 700px) {
+  #main-doc {
+    width:100%;
+    float: left;
+  }
+}
